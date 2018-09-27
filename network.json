@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "csvfile6775.csv",
+            "target": "script1693.R"
         }
     ],
     "nodes": [
@@ -43,6 +53,6 @@
             "name": "script1693.R"
         }
     ],
-    "updated_at": "2018-09-27 15:34:39",
+    "updated_at": "2018-09-27 15:35:04",
     "url": "https://github.com/fall2018-saltz/woojin_project1"
 }
